@@ -27,12 +27,12 @@
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "我是 Mario，你也可以叫我蘑菇君🍄"
+            content: "我是小七"
         })
     }).then(function() {
         return botui.message.bot({
             delay: 1000,
-            content: "一个可爱的蓝孩子~"
+            content: "一只快乐欢脱的前端程序员~"
         })
     }).then(function() {
         return botui.action.button({
@@ -53,7 +53,7 @@
         if (res.value == "gg") {
             return botui.message.bot({
                 delay: 1500,
-                content: "![](https://view.amogu.cn/images/2020/08/30/sanlian.jpg)"
+                content: "那小七走啦，你自己好好玩耍吧"
             })
         }
     });
@@ -65,35 +65,35 @@
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "是个正在学习的小运维，业余Coder"
+                content: "曾就读于哈尔滨理工大学软件工程专业"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "略懂HTML/CSS/JavaScript/PHP，偶尔也折腾易语言、Python"
+                content: "现在在杭州工作"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "不过还是比较熟悉主机DIY与系统环境安装部署"
+                content: "略懂HTML/CSS/JavaScript/Vue，偶尔也看看go"
             })
         }).then(function() {
             return botui.message.bot({
                 delay: 1500,
-                content: "喜欢折腾，热爱折腾，目前正在计算机一道上探索中"
+                content: "喜欢一切新奇的事物，鼓捣新鲜玩意儿"
             })
         }).then(function() {
             return botui.action.button({
                 delay: 1500,
                 action: [{
-                    text: "为什么叫 雾时之森 呢？ 🤔",
+                    text: "为什么叫小七呢？ 🤔",
                     value: "next"
                 }]
             })
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "一次起昵称时偶然打出了这个名字，于是我就沿用了下来，你也可以简称为 “雾森”，嗯！"
+                content: "因为我最喜欢北宋的词人柳永了，他排行老七，所以我就叫小七啦"
             })
         }).then(function() {
             return botui.action.button({
@@ -106,7 +106,7 @@
         }).then(function(res) {
             return botui.message.bot({
                 delay: 1500,
-                content: "emmmmm，看备案信息你就知道了_(:з」∠)_"
+                content: "emmmmm，博哥666_(:з」∠)_"
             })
         }).then(function(res) {
             return botui.message.bot({
